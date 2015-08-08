@@ -14,3 +14,4 @@ github: https://github.com/nandomoreirame/zetsu
 
 # Build settings
 markdown: kramdown
+permalink   : /:title/
