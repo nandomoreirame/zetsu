@@ -1,0 +1,27 @@
+
+// Google fonts api
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:300,400,700);
+
+// Our variables
+$base-font-family : 'Ubuntu', Helvetica, Arial, sans-serif;
+$base-font-serif  : 'Merriweather', serif;
+$base-font-size   : 16px;
+$small-font-size  : $base-font-size * 0.875;
+$base-line-height : 1.4;
+
+$spacing-unit: 30px;
+
+$text-color:       #303030;
+$brand-color:      #2a7ae2;
+$background-color: #f1f1f1;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    760px;
+$on-palm:          560px;
+$on-phone:         480px;
+$on-laptop:        $content-width;

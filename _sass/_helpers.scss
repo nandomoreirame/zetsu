@@ -1,0 +1,16 @@
+//
+// Helpers class
+//
+
+.f-left { float: left; }
+.f-right { float: right; }
+.clearfix { @extend %clearfix; }
+
+.t-left { text-align: left; }
+.t-right { text-align: right; }
+.t-center { text-align: center; }
+.t-justify { text-align: justify; }
+
+.va-middle { vertical-align: middle; }
+.va-bottom { vertical-align: bottom; }
+.va-top { vertical-align: top; }

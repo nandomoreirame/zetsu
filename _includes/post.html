@@ -1,0 +1,27 @@
+<article class="post">
+  <header class="post-header">
+    <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+    <span class="post-meta">
+      <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
+        {% assign m = post.date | date: "%-m" %}
+        {{ post.date | date: "%-d" }} de
+        {% case m %}
+          {% when '1' %}Janeiro
+          {% when '2' %}Fevereiro
+          {% when '3' %}Março
+          {% when '4' %}Abril
+          {% when '5' %}Maio
+          {% when '6' %}Junho
+          {% when '7' %}Julho
+          {% when '8' %}Agosto
+          {% when '9' %}Setembro
+          {% when '10' %}Outubro
+          {% when '11' %}Novembro
+          {% when '12' %}Dezembro
+        {% endcase %}
+        de {{ post.date | date: "%Y" }}
+      </time>
+      <span class="post-author">por {{ site.author.name }}</span>
+    </span>
+  </header>
+</article>

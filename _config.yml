@@ -1,0 +1,16 @@
+# Site settings
+title: Zetsu
+email: zetsu@domain.com
+description: Um lindo blog feito com jekyll e com o <3
+baseurl: ""
+url: "http://yourdomain.com"
+
+author:
+  name     : 'Fernando Moreira'
+  email    : hi@nandomoreira.me
+  url      : http://nandomoreira.me
+
+github: https://github.com/nandomoreirame/zetsu
+
+# Build settings
+markdown: kramdown
