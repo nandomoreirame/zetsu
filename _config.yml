@@ -1,7 +1,7 @@
 # Site settings
 title: Zetsu
 email: zetsu@domain.com
-description: Um lindo blog feito com jekyll e com o <3
+description: Um lindo tema feito para jekyll e com o <3
 baseurl: "/zetsu"
 url: "http://yourdomain.com"
 
