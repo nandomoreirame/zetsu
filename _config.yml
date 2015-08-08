@@ -2,7 +2,7 @@
 title: Zetsu
 email: zetsu@domain.com
 description: Um lindo blog feito com jekyll e com o <3
-baseurl: ""
+baseurl: "/zetsu"
 url: "http://yourdomain.com"
 
 author:
