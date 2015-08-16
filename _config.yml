@@ -23,5 +23,5 @@ sass:
   sass_dir: _sass
 
 # Build settings
-markdown: kramdown
-permalink   : /:title/
+markdown  : kramdown
+permalink : /:title/
