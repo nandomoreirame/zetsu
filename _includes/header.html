@@ -27,6 +27,12 @@
       </nav>
     </div>
 
+    {% if page.slug == 'home' %}
+      <h2 class="txt-center">
+        Bem-vindo ao {{ site.title }}!
+      </h2>
+    {% endif %}
+
   </div>
 
 </header>

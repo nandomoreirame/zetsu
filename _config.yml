@@ -3,7 +3,7 @@ title: Zetsu
 email: zetsu@domain.com
 description: Um lindo tema feito para jekyll e com o <3
 baseurl: "/zetsu"
-url: "http://yourdomain.com"
+url: "http://nandomoreira.me"
 
 author:
   name     : 'Fernando Moreira'
@@ -17,6 +17,10 @@ github: https://github.com/nandomoreirame/zetsu
 paginate: 2
 comments: true
 paginate_path: "/page/:num"
+
+sass:
+  style: :compressed
+  sass_dir: _sass
 
 # Build settings
 markdown: kramdown

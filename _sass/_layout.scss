@@ -38,18 +38,18 @@
 //
 // Site header
 .header {
-  background: #292929 url(http://themes-lab.com/make-frontend/common-files/images/gallery/22.jpg) no-repeat 50% 0px;
+  background: #292929 url(../images/cover.jpg) no-repeat 50% 0px;
   @include background-size(cover);
   border-bottom: 1px solid $gray-color-light;
   border-top: 3px solid $primary-color;
   min-height: 60px;
   position: relative;
   @extend %clearfix;
-  padding: 200px 0 90px;
+  padding: 60px 0;
   margin-bottom: 30px;
 
   .overlay {
-    background: rgba(#000, .7);
+    background: rgba(#000, .75);
     z-index: 1;
     position: absolute;
     width: 100%;
@@ -64,6 +64,16 @@
   @include media-query($on-phone) {
     text-align: center;
   }
+
+  .txt-center {
+    color: $white-color;
+    margin-top: 160px;
+    font-weight: 300;
+  }
+}
+
+.home .header {
+  padding: 260px 0 200px;
 }
 
 //
@@ -109,15 +119,19 @@
   margin: 0;
 
   li {
-    padding: 0;
+    padding: 20px;
     margin: 0;
     text-transform: lowercase;
     float: left;
     display: inline-block;
     @include transition(background .2s linear);
 
+    &:last-child {
+      padding-right: 0;
+    }
+
     a {
-      padding: 20px;
+      padding: 0;
       display: inline-block;
       color: darken($white-color, 25%);
       @include transition(color .2s linear);
