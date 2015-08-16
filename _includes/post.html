@@ -1,4 +1,4 @@
-<article class="post">
+<article class="post card container">
   <header class="post-header">
     <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
     <span class="post-meta">
@@ -24,4 +24,7 @@
       <span class="post-author">por {{ site.author.name }}</span>
     </span>
   </header>
+  <div class="post-content">
+    {{ post.excerpt }} <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">Continue lendo &raquo;</a>
+  </div>
 </article>

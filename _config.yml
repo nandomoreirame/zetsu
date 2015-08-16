@@ -9,8 +9,14 @@ author:
   name     : 'Fernando Moreira'
   email    : hi@nandomoreira.me
   url      : http://nandomoreira.me
+  facebook : http://facebook.com/fernando.dev
+  twitter  : http://twitter.com/nandomoreirame
 
 github: https://github.com/nandomoreirame/zetsu
+
+paginate: 2
+comments: true
+paginate_path: "/page/:num"
 
 # Build settings
 markdown: kramdown

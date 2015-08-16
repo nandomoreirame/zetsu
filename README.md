@@ -1,5 +1,5 @@
 # Zetsu
 
-**Zetsu** - Um lindo tema feito para jekyll e com o <3
+**Zetsu** - Um tema bacanudo feito para jekyll
 
 [Demo](http://nandomoreira.me/zetsu/)

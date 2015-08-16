@@ -1,9 +1,3 @@
-*,
-*:after,
-*:before {
-  @include box-sizing(border-box);
-}
-
 /**
  * Basic styling
  */
@@ -15,102 +9,19 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 body {
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-  font-weight: 300;
-  color: $text-color;
-  background-color: $background-color;
-  -webkit-text-size-adjust: 100%;
-  margin-bottom: 50px; // footer fixed
+  background-color: $bg-color;
 }
 
-
-
-/**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure {
-  @extend %vertical-rhythm;
+p {
+  color: #606060;
 }
-
-
-
-/**
- * Images
- */
-img {
-  max-width: 100%;
-  vertical-align: middle;
-}
-
-
-
-/**
- * Figures
- */
-figure > img {
-  display: block;
-}
-
-figcaption {
-  font-size: $small-font-size;
-}
-
-
-
-/**
- * Lists
- */
-ul, ol {
-  margin-left: $spacing-unit;
-}
-
-li {
-  > ul,
-  > ol {
-     margin-bottom: 0;
-  }
-}
-
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
-}
-
-
-
-/**
- * Links
- */
-a {
-  color: $brand-color;
-  text-decoration: none;
-
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
-
-  &:hover {
-    color: $text-color;
-    text-decoration: underline;
-  }
-}
-
-
 
 /**
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  color: $gray-color;
+  border-left: 4px solid $gray-color-light;
   padding-left: $spacing-unit / 2;
   font-size: 18px;
   letter-spacing: -1px;
@@ -129,7 +40,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $gray-color-light;
   border-radius: 3px;
   background-color: #eef;
 }

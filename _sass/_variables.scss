@@ -1,27 +1,28 @@
 
 // Google fonts api
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
-@import url(http://fonts.googleapis.com/css?family=Merriweather:300,400,700);
+@import url(//fonts.googleapis.com/css?family=Lato:400,300,400italic,700);
+@import url(//fonts.googleapis.com/css?family=Lora:400,400italic,700italic,700);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 
 // Our variables
-$base-font-family : 'Ubuntu', Helvetica, Arial, sans-serif;
-$base-font-serif  : 'Merriweather', serif;
-$base-font-size   : 16px;
-$small-font-size  : $base-font-size * 0.875;
-$base-line-height : 1.4;
+$font-family-base  : 'Lato', Helvetica, Arial, sans-serif;
+$font-family-serif : 'Lora', serif;
+$small-font-size   : 16px * 0.875;
 
-$spacing-unit: 30px;
+$spacing-unit : 30px;
 
-$text-color:       #303030;
-$brand-color:      #2a7ae2;
-$background-color: #f1f1f1;
+$text-color       : #303030;
+$brand-color      : #58c93a;
+$background-color : #f1f1f1;
+$primary-color    : $brand-color;
+$bg-color         : #ebebeb;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$gray-color:       #828282;
+$gray-color-light: lighten($gray-color, 40%);
+$gray-color-dark:  darken($gray-color, 25%);
 
 // Width of the content area
-$content-width:    940px;
+$content-width:    800px;
 $on-laptop:        $content-width;
 $on-palm:          560px;
 $on-phone:         480px;
