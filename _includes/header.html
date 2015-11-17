@@ -21,7 +21,7 @@
             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
           {% endfor %}
-          <li><a href="{{ site.author.url }}/about" target="_blank">o autor</a></li>
+          <li><a href="{{ site.author.url }}/about" target="_blank">the autor</a></li>
           <li><a href="{{ site.github }}" target="_blank">Github</a></li>
         </ul>
       </nav>
@@ -29,7 +29,7 @@
 
     {% if page.slug == 'home' %}
       <h2 class="txt-center">
-        Bem-vindo ao {{ site.title }}!
+        Welcome to <strong>{{ site.title }}</strong>!
       </h2>
     {% endif %}
 

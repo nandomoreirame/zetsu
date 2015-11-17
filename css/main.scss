@@ -3,16 +3,12 @@
 ---
 @charset "utf-8";
 
-@import
-  "variables",
-  "mixins",
-  "placeholders"
-;
+@import "variables";
+@import "mixins";
+@import "placeholders";
 
-@import
-  "initscss/scss/init",
-  "globals",
-  "helpers",
-  "layout",
-  "syntax"
-;
+@import "normalize";
+@import "globals";
+@import "helpers";
+@import "layout";
+@import "syntax";
