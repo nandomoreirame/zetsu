@@ -3,6 +3,7 @@ layout: post
 title:  "A wonderful serenity has taken possession of my entire soul"
 date:   2015-08-05 03:00:08
 categories: Lorem
+comments: true
 ---
 A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
 

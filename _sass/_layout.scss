@@ -204,6 +204,16 @@
   }
 }
 
+.share {
+  @extend %clearfix;
+  text-align: right;
+
+  span, a {
+    font-size: 1em;
+    color: #999;
+  }
+}
+
 .post-list {
   .post {
     padding-bottom: $spacing-unit;

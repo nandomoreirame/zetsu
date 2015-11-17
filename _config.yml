@@ -2,7 +2,7 @@
 title: Zetsu
 email: zetsu@domain.com
 description: Um lindo tema feito para jekyll e com o <3
-baseurl: ""
+baseurl: "/zetsu"
 url: "http://nandomoreira.me"
 
 author:
@@ -13,6 +13,8 @@ author:
   twitter  : http://twitter.com/nandomoreirame
 
 github: https://github.com/nandomoreirame/zetsu
+disqus_shortname: "fernandomoreira"
+google_analytics: UA-52446115-1
 
 paginate: 2
 comments: true
