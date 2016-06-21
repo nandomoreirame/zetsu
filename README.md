@@ -33,7 +33,7 @@ Access, [localhost:4000/zetsu](http://localhost:4000/zetsu/)
 1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
 2. Run `rake site:publish` for build and publish on Github
 
-[Demo](http://nandomoreira.me/zetsu/)
+[Demo](https://github.nandomoreira.me/zetsu/)
 
 ![Zetsu - free Jekyll theme](/screenshot.png)
 
